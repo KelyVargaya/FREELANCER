@@ -31,7 +31,7 @@
 	<div id="home">
 		<div class="container">
 			<div class="row">
-				<div id="profile" class="coflumna3">
+				<div id="profile" class="columna3">
 					<img class="img-responsive" src="img/profile.png">
 				</div>
 			</div>
@@ -42,47 +42,26 @@
 			<div class="container row">
 				<hr class="estrella"></i></hr>
 			</div>
-			<p>Web Developer - Graphic Artist - User Experience Designer</p>
+			<p id="titulo">Web Developer - Graphic Artist - User Experience Designer</p>
 		</div>
 	</div>
 
 <!-- div de nuestro PORTAFOLIO -->
 	<div id="portafolio" class="container">	
 		<h2>Portfolio</h2>
-		<div class="mostrar container row">
+		<div class="mostrar container row" id="mostrarImagenes">
 				<hr class="estrella"></i></hr>
 			</div>
-		<div class="row">
-			<!-- primera fila -->
-			<div class="columna4 galeria">
-				<img src="img/portfolio/cabin.png" class="img-responsive">
-			</div>
-			<div class="columna4 galeria">
-				<img src="img/portfolio/cake.png" class="img-responsive">
-			</div>
-			<div class="columna4 galeria">
-				<img src="img/portfolio/circus.png" class="img-responsive">
-			</div>
-
-			<!-- segunda fila -->
-			<div class="columna4 galeria">
-				<img src="img/portfolio/game.png" class="img-responsive">
-			</div>
-			<div class="columna4 galeria">
-				<img src="img/portfolio/safe.png" class="img-responsive">
-			</div>
-			<div class="columna4 galeria">
-				<img src="img/portfolio/submarine.png" class="img-responsive">
-			</div>
-
-		</div>
+		  <div id = "contenedorImages" class="images">
+        <!--Aqui cargaremos las imagenes por JS--></div>
+    	</div>
 	</div>
 
 <!-- div de nuestro ABOUT -->
 	<div id="about" >
 		<h2>About</h2>
 		<div class="container row">
-		<p class="estrella">&#822 &#822 &#9733</p>
+		<!--<p class="estrella">&#822 &#822 &#9733</p>-->
 				<hr class="estrella"></i></hr>
 			</div>
 		<div class="container">
@@ -166,13 +145,7 @@
 		</div>
 </div>
 
-<div id=imagenes-view class="view">
-	<div class="container row">
-		<hr class="estrella"></i></hr>
 
-	</div>
-<!-- se cargara el contenido dinamico supuestamente -->
-</div>
 	<!-- Enlaza aquí tu archivo JS -->
 	<script type="text/javascript" src="js/main.js"></script>
 </body>
